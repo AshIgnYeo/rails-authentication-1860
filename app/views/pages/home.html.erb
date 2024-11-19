@@ -2,5 +2,5 @@
   <h1>Homepage</h1>
 
   <p><strong>User Signed in?</strong> : <%= user_signed_in? %></p>
-  <p>email: <%= current_user.email if user_signed_in? %></p>
+  <p><strong>email:</strong> <%= current_user.email if user_signed_in? %></p>
 </div>
